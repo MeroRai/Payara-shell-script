@@ -20,4 +20,5 @@ $RASADMIN start-local-instance --node node1 --nodedir $NODE_HOME --sync full i11
 
 }
 
+#Calling the method
 createInstance
