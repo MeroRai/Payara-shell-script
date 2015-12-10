@@ -20,7 +20,6 @@ cp pfile $PAYA_HOME
 
 }
 
-
 startDomain() {
 $ASADMIN start-domain domain1
 }
@@ -59,6 +58,7 @@ $RASADMIN start-local-instance --sync  full i01
 
 }
 
+#Calling the method
 createPasswordFile
 startDomain
 enableSecureAdmin
